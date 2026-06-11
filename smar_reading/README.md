@@ -868,7 +868,7 @@ smart-reading /
 │
 ├── common/                      # 共享配置和工具
 │   ├── __init__.py
-│   ├── config.py                # 原 config.py
+│   ├── config.py                # 原 config1.py
 │   └── trace.py                 # 原 trace.py（可选，先不加）
 │
 ├── app.py                       # Streamlit前端
@@ -1203,11 +1203,9 @@ READING_HELPER_PROMPT = """
 user: 什么是xxx？
 ```
 
-## 5. RAG 全流程回顾 - 面试吹
+## 5. RAG 全流程回顾
 
 <img src="./data/images/RAG-面试.png" alt="image-20260429111211296" style="zoom:70%;" />
-
-
 
 
 
