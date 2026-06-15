@@ -2,7 +2,7 @@ import os
 import sys
 from run import PDFQA
 
-pdf_path = "D:\Workspace\PycharmProjects\PythonProject\k-ai-knowledge\smar_reading\data\sample_document .pdf"
+pdf_path = "/\data\sample_document .pdf"
 
 if not os.path.exists(pdf_path):
     print("文件路径错误")
